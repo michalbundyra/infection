@@ -36,11 +36,6 @@ parameters:
 			path: ../src/Config/ValueProvider/ExcludeDirsProvider.php
 
 		-
-			message: "#^Anonymous function should have native return typehint \"string\"\\.$#"
-			count: 1
-			path: ../src/Config/ValueProvider/PhpUnitCustomExecutablePathProvider.php
-
-		-
 			message: "#^Only booleans are allowed in a negated boolean, array\\|float\\|int\\|string\\|false\\|null given\\.$#"
 			count: 1
 			path: ../src/Config/ValueProvider/PhpUnitCustomExecutablePathProvider.php
